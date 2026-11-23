@@ -11,16 +11,16 @@ Les données restent sur le poste.
 
 | Fichier | Application | Objet |
 | --- | --- | --- |
-| `index.html` | Accueil | La page qui présente et ouvre les quatre applications |
+| `index.html` | Accueil | La page qui présente et ouvre les cinq applications |
 | `alix.dc.html` | Alix — `alix.tagot.fr` | Les successions et les demandes aux organismes : le registre des courriers et des attentes |
 | `henri.dc.html` | Henri — `henri.tagot.fr` | Les dossiers et les tâches : les petites choses à faire avant l'acte, en colonnes |
+| `pierre.dc.html` | Pierre — `pierre.tagot.fr` | Les renseignements sur un immeuble à partir d'une adresse ou de ses parcelles, et les pièces officielles à annexer aux actes |
 | `simone.dc.html` | Simone — `simone.tagot.fr` | Le lecteur PDF du rédacteur : on surligne ce qui compte dans l'acte, on récupère le texte |
 | `scribe.dc.html` | Scribe | L'océrisation des pièces : rendre chaque scan recherchable, l'original intact |
 
 ## Poids des pages
 
-Les images embarquées sont en WebP : 2,6 Mo pour l'ensemble des cinq pages,
-contre 13,6 Mo avec les PNG d'origine. Le script `outils/alleger-images.py`
+Les images embarquées sont en WebP : 3,3 Mo pour l'ensemble des six pages. Le script `outils/alleger-images.py`
 fait cette conversion — à relancer après chaque nouvel export des pages :
 
 ```
@@ -37,7 +37,7 @@ identifiants d'images changent à chaque fois.
 
 Ouvrir `index.html` dans un navigateur, ou ouvrir directement le fichier d'une
 application. Les liens de la page d'accueil pointent vers les fichiers voisins,
-donc les cinq fichiers doivent rester dans le même répertoire.
+donc les six fichiers doivent rester dans le même répertoire.
 
 Le dépôt peut aussi être publié tel quel comme site statique : `index.html` en
 racine sert de page d'accueil.

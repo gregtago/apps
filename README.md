@@ -39,8 +39,9 @@ Ouvrir `index.html` dans un navigateur, ou ouvrir directement le fichier d'une
 application. Les liens de la page d'accueil pointent vers les fichiers voisins,
 donc les cinq fichiers doivent rester dans le même répertoire.
 
-Le portail LCB-FT (`lcbft.tagot.fr`) et le portail client n'ont pas de page
-de présentation : leurs vignettes, volontairement brèves, renvoient au contact.
+Le portail LCB-FT et le portail client n'ont pas de page de présentation :
+le premier est simplement signalé comme réservé à l'Office, le second renvoie
+au questionnaire client en ligne (`form.tagot.notaires.fr`).
 
 Le dépôt peut aussi être publié tel quel comme site statique : `index.html` en
 racine sert de page d'accueil.

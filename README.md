@@ -11,7 +11,7 @@ Les données restent sur le poste.
 
 | Fichier | Application | Objet |
 | --- | --- | --- |
-| `index.html` | Accueil | La page qui présente et ouvre les quatre applications |
+| `index.html` | Accueil | La page qui présente et ouvre les quatre applications, et signale les deux portails (LCB-FT, client) |
 | `alix.dc.html` | Alix — `alix.tagot.fr` | Les successions et les demandes aux organismes : le registre des courriers et des attentes |
 | `henri.dc.html` | Henri — `henri.tagot.fr` | Les dossiers et les tâches : les petites choses à faire avant l'acte, en colonnes |
 | `simone.dc.html` | Simone — `simone.tagot.fr` | Le lecteur PDF du rédacteur : on surligne ce qui compte dans l'acte, on récupère le texte |
@@ -38,6 +38,9 @@ identifiants d'images changent à chaque fois.
 Ouvrir `index.html` dans un navigateur, ou ouvrir directement le fichier d'une
 application. Les liens de la page d'accueil pointent vers les fichiers voisins,
 donc les cinq fichiers doivent rester dans le même répertoire.
+
+Le portail LCB-FT (`lcbft.tagot.fr`) et le portail client n'ont pas de page
+de présentation : leurs vignettes, volontairement brèves, renvoient au contact.
 
 Le dépôt peut aussi être publié tel quel comme site statique : `index.html` en
 racine sert de page d'accueil.
